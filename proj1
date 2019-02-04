@@ -89,8 +89,10 @@ int main(int argc, char *argv[]) {
 
 	if (rank == 0) {
 		//Print output
-		cout << "N= " << N << ", R= " << R << ", P= " << p << ", PI= " << averagePI << endl;
-		cout << "Time= " << execTime << " seconds" << endl;
+		//cout << "N= " << N << ", R= " << R << ", P= " << p << ", PI= " << averagePI << endl;
+		printf("N = %d, R = %d, P = %d, PI = %f \n", N, R, p, averagePI);
+		//cout << "Time= " << execTime << " seconds" << endl;
+		printf("Time = %f seconds \n", execTime);
 	}
 	
 
